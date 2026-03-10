@@ -12,3 +12,5 @@ def log_checksum(filepath, trace_id, algo="sha256", note=""):
     digest = h.hexdigest()
     logging.info(f"{trace_id} Checksum ({algo}) for {filepath}: {digest} {note}")
     return digest
+
+#Aaron Test Push
